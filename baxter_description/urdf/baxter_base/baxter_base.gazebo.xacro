@@ -101,7 +101,7 @@
         <pose>0.0 0.0 0.0 0.0 -1.570796327 1.570796327 </pose>
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
-          <width>800</width>
+          <width>1280</width>
           <height>800</height>
           <format>R8G8B8</format>
         </image>
@@ -139,7 +139,7 @@
         <pose>0.0 0.0 0.0 0.0 -1.570796327 1.570796327 </pose>
         <horizontal_fov>1.3962634</horizontal_fov>
         <image>
-          <width>800</width>
+          <width>1280</width>
           <height>800</height>
           <format>R8G8B8</format>
         </image>
@@ -159,7 +159,7 @@
         <cameraName>left_hand_camera</cameraName>
         <imageTopicName>image</imageTopicName>
         <cameraInfoTopicName>camera_info</cameraInfoTopicName>
-        <frameName>left_hand_camera</frameName>
+        <frameName>/left_hand_camera</frameName>
         <hackBaseline>0.07</hackBaseline>
         <distortionK1>0.0</distortionK1>
         <distortionK2>0.0</distortionK2>
