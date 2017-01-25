@@ -11,7 +11,7 @@
   <xacro:unless value="$(arg connect_to_head)">
     <joint name="arm_virtual_camera" type="fixed">
       <origin rpy="3.1415 3.1415 -1.5657" xyz="-0.06 0.02 0.1"/>
-      <parent link="right_wrist"/>
+      <parent link="left_wrist"/>
       <child link="virtual_camera_link"/>
     </joint>
   </xacro:unless>
